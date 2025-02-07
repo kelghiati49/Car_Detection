@@ -1,0 +1,10 @@
+FastAPI
+ultralytics==8.3.54
+opencv-python==4.10.0.84
+numpy ==2.2.1
+stramlit
+filterpy==1.4.5
+paddleocr==2.9.1
+uvicorn==0.34.0
+websockets == 14.2
+torch==2.5.0
