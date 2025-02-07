@@ -3,6 +3,8 @@ import numpy as np
 import websockets
 import asyncio
 import base64
+import os
+os.system("apt update && apt install -y libgl1")
 import cv2
 
 
