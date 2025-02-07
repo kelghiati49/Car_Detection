@@ -2,7 +2,7 @@ FastAPI
 ultralytics
 opencv-python
 numpy 
-stramlit
+streamlit
 filterpy
 paddleocr
 uvicorn
