@@ -8,4 +8,4 @@ paddleocr
 uvicorn
 websockets 
 torch==2.5.0
-base64
+
