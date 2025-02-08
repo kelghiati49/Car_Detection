@@ -1,7 +1,7 @@
 
 from KalmanFilter import KalmanFilter
 from paddleocr import PaddleOCR
-from ultralytics import YOLO
+from ultralytics import YOLOv10
 import numpy as np
 import base64
 import cv2
@@ -14,7 +14,7 @@ os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
 def car_detect(frame):
     #Initialize our Models
-    model = YOLO("./best.pt")
+    model = YOLOv10("./best.pt")
     ocr = PaddleOCR(use_angle_cls = True, use_gpu = False)
     kalman = KalmanFilter()
 
