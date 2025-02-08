@@ -36,7 +36,7 @@ if uploaded_file is not None:
     st.markdown("## Vidéo traitée")
     # Connexion WebSocket au backend
     async def stream_video():
-        async with websockets.connect("ws://10.12.13.190:8000/video_stream") as websocket:
+        async with websockets.connect("ws://127.0.0.1:8000/video_stream") as websocket:
             frame_placeholder = st.empty()  # Placeholder pour afficher les images
             while cap.isOpened():
                 ret, im = cap.read()
